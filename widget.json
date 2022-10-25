@@ -1,10 +1,5 @@
 {
-  "availableTranslations": [
-    "en",
-    "es",
-    "fr",
-    "ru"
-  ],
+  "availableTranslations": ["en", "es", "fr", "ru"],
   "description": "This example contains documentation and example code for creating widgets using React.",
   "settingsSchema": {
     "type": "object",

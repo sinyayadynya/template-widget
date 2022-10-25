@@ -37,6 +37,7 @@ this widget. It contains the following keys:
 | status                   | yes      | stable                                 | One of `stable`, `beta`, `wip`, or `deprecated`.                                               |
 
 ### Configurable widgets
+
 Configuration parameters are specified during the embed process. Drupal will create a form element
 automatically to gather those parameters in the editorial screens. For the CMS to know what form
 element to use, the widget definition needs to include a [JSON Schema](https://json-schema.org)
@@ -85,6 +86,7 @@ automatically.
 For each dependency you will need to:
 
 1. [Tell Webpack to not include the library](https://github.com/js-widgets/example-widget/blob/master/craco.config.js#L32-L35) in the resulting JS file(s) for this widget.
+
 ```js
     // webpack.config.js or craco.config.js
     externals: {
@@ -94,7 +96,9 @@ For each dependency you will need to:
     },
     // ...
 ```
+
 1. [Tell the widget registry (in `widget.json`)](https://github.com/js-widgets/example-widget/blob/master/widget.json#L37-L46), and ultimately the CMS integrations where to find these libraries that were excluded.
+
 ```json
 "externalPeerDependencies": {
     "react": {"src": "https://unpkg.com/react@^17/umd/react.production.min.js"},
@@ -233,12 +237,12 @@ Create all translation messages in `src/messages.js`, following the provided exa
 
 #### Supported Languages
 
-| Language               | Code  |
-| ---------------------- | ----- |
-| English                | en    |
-| Spanish                | es    |
-| French                 | fr    |
-| Russian                | ru    |
+| Language | Code |
+| -------- | ---- |
+| English  | en   |
+| Spanish  | es   |
+| French   | fr   |
+| Russian  | ru   |
 
 ### Typescript
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import './index.css';
 import Widget from './components/Widget';
 import * as serviceWorker from './core/bin/serviceWorker';
@@ -22,9 +22,10 @@ import i18n from './core/bin/i18n.js';
  */
 function render(instanceId, langCode, origin, cb) {
   const element = document.getElementById(instanceId);
+  const root = createRoot(container);
   const translation = new i18n(langCode || serviceWorker.getUrlLocale());
 
-  ReactDOM.render(
+  root.render(
     <React.StrictMode>
       <IntlProvider locale={translation.locale} messages={translation.messages}>
         <Widget element={element} />
