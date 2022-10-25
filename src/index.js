@@ -22,7 +22,7 @@ import i18n from './core/bin/i18n.js';
  */
 function render(instanceId, langCode, origin, cb) {
   const element = document.getElementById(instanceId);
-  const root = createRoot(container);
+  const root = createRoot(element);
   const translation = new i18n(langCode || serviceWorker.getUrlLocale());
 
   root.render(
