@@ -235,21 +235,10 @@ Create all translation messages in `src/messages.js`, following the provided exa
 
 | Language               | Code  |
 | ---------------------- | ----- |
-| Arabic                 | ar    |
-| German                 | de    |
 | English                | en    |
 | Spanish                | es    |
-| Latin American Spanish | esla  |
 | French                 | fr    |
-| Italian                | it    |
-| Japanese               | ja    |
-| Korean                 | ko    |
-| Polish                 | pl    |
-| Portuguese             | pt    |
 | Russian                | ru    |
-| Turkish                | tr    |
-| Simplified Chinese     | zh-cn |
-| Traditional Chinese    | zh-tw |
 
 ### Typescript
 

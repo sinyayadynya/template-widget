@@ -1,20 +1,9 @@
 {
   "availableTranslations": [
-    "ar",
-    "de",
     "en",
     "es",
-    "esla",
     "fr",
-    "it",
-    "ja",
-    "ko",
-    "pl",
-    "pt",
-    "ru",
-    "tr",
-    "zh-cn",
-    "zh-tw"
+    "ru"
   ],
   "description": "This example contains documentation and example code for creating widgets using React.",
   "settingsSchema": {
@@ -46,5 +35,5 @@
     }
   },
   "title": "Template Widget",
-  "status": "stable"
+  "status": "wip"
 }
