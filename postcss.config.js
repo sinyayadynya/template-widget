@@ -3,8 +3,8 @@ module.exports = {
     'postcss-wrap': {
       selector: '[.widget-instance]',
     },
-    tailwindcss: {},
-    autoprefixer: {},
+    // tailwindcss: {},
+    // autoprefixer: {},
     'postcss-focus-visible': {
       replaceWith: '[data-focus-visible-added]',
     },
