@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 function Widget({ element }) {
   return (
     <div className="Widget template-widget">
-      <h1 className="is-size-4 pb-2">
+      <h1 className="text-xl text-red-800 pb-2">
         <FormattedMessage id="widget.welcome-msg" defaultMessage="Welcome!" />
       </h1>
       <p className="is-size-6 pb-2">
