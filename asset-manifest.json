@@ -6,10 +6,11 @@
     "css/main.css.map": "https://sinyayadynya.github.io/template-widget/css/main.css.map",
     "index.html": "https://sinyayadynya.github.io/template-widget/index.html",
     "js/main.js.LICENSE.txt": "https://sinyayadynya.github.io/template-widget/js/main.js.LICENSE.txt",
-    "static/css/main.8343b28c.css.map": "https://sinyayadynya.github.io/template-widget/static/css/main.8343b28c.css.map"
+    "static/css/main.ab66a85e.css.map": "https://sinyayadynya.github.io/template-widget/static/css/main.ab66a85e.css.map",
+    "static/media/index.css": "https://sinyayadynya.github.io/template-widget/static/media/Inter-roman.var.ba4caefc.woff2"
   },
   "entrypoints": [
-    "static/css/main.8343b28c.css",
+    "static/css/main.ab66a85e.css",
     "css/main.css",
     "js/main.js"
   ]
